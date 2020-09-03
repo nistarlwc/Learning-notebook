@@ -11,9 +11,15 @@
 ### ReLU Nonlinearity  
 优点：  
 1.使网络训练更快  
-2.防止梯度消失  
+2.防止梯度消失(gradient vanishing)  
 3.使网络具有稀疏性   
 4.不需要输入进行标准化来防止饱和现象，sigmod/tanh则必须要标准化
+
+ReLU也有几个需要特别注意的问题：
+1.ReLU的输出不是zero-centered(零均值化)
+2.Dead ReLU Problem，指的是某些神经元可能永远不会被激活，导致相应的参数永远不能被更新。有两个主要原因可能导致这种情况产生: 
+(1) 非常不幸的参数初始化，这种情况比较少见 
+(2) learning rate太高导致在训练过程中参数更新太大，不幸使网络进入这种状态。解决方法是可以采用**Xavier初始化**方法，以及避免将learning rate设置太大或使用adagrad等自动调节learning rate的算法。
 
 ### Local Response Normalization 局部相应归一化
 为什么要引入LRN层？  
