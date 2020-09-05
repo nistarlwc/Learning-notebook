@@ -18,5 +18,5 @@
 [10. 项目沟通管理](mindmap/PMBOK-10.jpg)  
 [11. 项目风险管理](mindmap/PMBOK-11.jpg)  
 [12. 项目采购管理](mindmap/PMBOK-12.jpg)  
-[13.项目相关方管理](mindmap/PMBOK-13.jpg)  
+[13. 项目相关方管理](mindmap/PMBOK-13.jpg)  
 [沟通/相关方区分](mindmap/PMBOK-10vs13.jpg)  

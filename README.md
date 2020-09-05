@@ -1,4 +1,4 @@
-# AI-notebook
+# Learning-notebook
 工作相关的学习笔记
 
 ## [深度学习](deep-learning/README.md)
