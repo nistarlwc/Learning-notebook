@@ -1,4 +1,4 @@
-# GoogleNet
+# GoogleNet - inception
 
 ## 多尺度卷积
 
