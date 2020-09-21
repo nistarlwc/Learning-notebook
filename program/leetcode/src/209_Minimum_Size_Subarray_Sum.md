@@ -37,3 +37,38 @@ class Solution:
         else:
             return result           
 ```
+
+``` C
+class Solution {
+public:
+    int minSubArrayLen(int s, vector<int>& nums) {
+        int len_nums = nums.size();
+        if(len_nums==0){
+            return 0;
+        }
+        
+        int i=0, j=1, result = len_nums+99;
+        int sum = nums[i];
+        while(i<len_nums-1){
+            if(sum < s && j<len_nums){
+                sum += nums[j];
+                j += 1;
+            }
+            else{
+                if(sum>=s && j-i < result){
+                    result = j-i;
+                }
+                sum -= nums[i];
+                i+=1;
+            }
+        }
+            
+        if(result == len_nums+99){
+            return 0 ;
+        }
+        else{
+            return result;
+        }
+    }
+};
+```
