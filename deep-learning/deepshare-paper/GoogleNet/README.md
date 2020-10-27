@@ -64,3 +64,6 @@ ICS现象：输入数据分布变化，导致训练困难
 # GoogleNet V3
 ## *非对称卷积 Asymmetric Convolutionals*
 ![非对称卷积](2020-09-21_18-20-11屏幕截图.png)
+
+## *标签平滑 Label Smoothing*  
+![非对称卷积](屏幕快照2020-10-03下午42614.png)
