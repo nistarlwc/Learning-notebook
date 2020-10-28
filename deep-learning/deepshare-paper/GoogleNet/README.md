@@ -70,3 +70,8 @@ ICS现象：输入数据分布变化，导致训练困难
 
 # GoogleNet V4
 加入残差结构
+![](8904720-4a80d0db07af7397.png)
+从左到右分别为Inception-v4中的 Inception Ａ、 Inception Ｂ、Inception Ｃ模块 
+
+![](8904720-faa68bb2ea896417.png)
+Inception-v4中的 Reduction模块
