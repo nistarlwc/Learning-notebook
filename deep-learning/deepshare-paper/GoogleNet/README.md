@@ -67,3 +67,11 @@ ICS现象：输入数据分布变化，导致训练困难
 
 ## *标签平滑 Label Smoothing*  
 ![非对称卷积](屏幕快照2020-10-03下午42614.png)
+
+# GoogleNet V4
+加入残差结构
+![](8904720-4a80d0db07af7397.png)
+从左到右分别为Inception-v4中的 Inception Ａ、 Inception Ｂ、Inception Ｃ模块 
+
+![](8904720-faa68bb2ea896417.png)
+Inception-v4中的 Reduction模块
