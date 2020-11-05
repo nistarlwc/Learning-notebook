@@ -12,3 +12,5 @@
 [5. ResNeXt](ResNeXt/README.md)
 
 [6. DenseNet](DenseNet/README.md)
+
+[7. SENet](SENet/README.md)
