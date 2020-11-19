@@ -17,3 +17,9 @@
 
 ## 轻量化网络  
 [1. MobileNet](MobileNet/README.md)
+
+[2. ShuffleNet](ShuffleNet/README.md)
+
+[3. SqueezeNet](SqueezeNet/README.md)
+
+[4. Xception](Xception/README.md)
